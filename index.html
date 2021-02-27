@@ -1,0 +1,52 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik">
+    <link rel="stylesheet" href="select.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <title>Speaker Keep Alive | rly.gd</title>
+</head>
+
+<body>
+<div class="container">
+
+    <div class="content">
+        <h2>Keep your speakers awake</h2>
+
+        <p>Play an inaudible (10hz) sound that will prevent<br /> your speakers   from entering standby mode</p>
+
+        <p class="time-input">
+            <span>Play the sound every</span>
+            <select onchange="onTimeChange(event.target.value)">
+                <option>1</option>
+                <option>5</option>
+                <option>10</option>
+                <option>20</option>
+                <option>30</option>
+                <option>45</option>
+                <option>60</option>
+            </select>
+            <span>minutes</span>
+        </p>
+
+        <div class="audio-container">
+            <div class="play-btn-container" onclick="start()">
+                <p>Click to play</p>
+                <div class="play-btn"></div>
+            </div>
+
+            <audio preload="auto" controls class="hide">
+                <source src="10hz_tone.wav" type="audio/wav">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+    </div>
+
+
+</div>
+
+<script src="play.js"></script>
+</body>
+</html>
