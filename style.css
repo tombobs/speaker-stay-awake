@@ -97,3 +97,16 @@ audio:focus {
     border-width: 17px 0 17px 34px;
     border-color: transparent transparent transparent #202020;
 }
+
+.github {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.logo {
+    width: 200px;
+    position: absolute;
+    margin: auto 0;
+    top: 15px;
+}

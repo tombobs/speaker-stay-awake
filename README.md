@@ -6,3 +6,7 @@ I recently started a new job where they already had a pair of KRK Rokit 6's in t
 So, to get around this I have made a 10hz tone wave file and a simple HTML audio player to play the file. The page auto-refreshes every 25 minutes so the speakers never turn off - you can't hear the 10hz tone and it's signal is enough to keep the speakers on.
 
 I just have this site open in my browser in a tab all day and forget about it. 
+
+
+
+[Use it here](http://speaker-stay-awake.rly.gd)
